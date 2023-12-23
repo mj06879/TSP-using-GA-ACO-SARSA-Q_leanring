@@ -47,7 +47,7 @@ The primary objective of this repository is to:
 2. **Experiment Design**: Comprehensive experimental setup with controlled variables and parameters.
 3. **Performance Metrics**: Evaluation based on solution quality, computational time, convergence rate, and scalability.
 
-To have a better understanding and clarification, refer to the report link [here](https://github.com/mj06879/TSP-using-GA-ACO-SARSA-Q_leanring/blob/main/AI_Project_Report_mj06879_sa06840.pdf)
+To have a better understanding and clarification, refer to the report link [here](https://github.com/mj06879/TSP-using-GA-ACO-SARSA-Q_leanring/blob/main/AI_Project_Report.pdf)
 ## Results
 
 To ensure a fair comparison, all four algorithms were run on the same dataset consisting of 194 cities. Firstly, each algorithm was analysed individually using different parameter values to check which set of parameters gave the best results for the specific algorithm. Once this was determined, the algorithms were run together on a set number of epochs (4000) and each algorithm was run using the set of parameters from which got the best results.
