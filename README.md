@@ -51,7 +51,7 @@ To have a better understanding and clarification, refer to the report link [here
 ## Results
 
 To ensure a fair comparison, all four algorithms were run on the same dataset consisting of 194 cities. Firstly, each algorithm was analysed individually using different parameter values to check which set of parameters gave the best results for the specific algorithm. Once this was determined, the algorithms were run together on a set number of epochs (4000) and each algorithm was run using the set of parameters from which got the best results.
-<img width="659" alt="image" src="https://github.com/mj06879/TSP-using-GA-ACO-SARSA-Q_leanring/assets/78081958/e21d961e-8f08-4f99-8e8d-0e2cd8dad5b3" width="100" height="100">
+<img width="659" alt="image" src="https://github.com/mj06879/TSP-using-GA-ACO-SARSA-Q_leanring/assets/78081958/e21d961e-8f08-4f99-8e8d-0e2cd8dad5b3" width="50">
 <img width="531" alt="image" src="https://github.com/mj06879/TSP-using-GA-ACO-SARSA-Q_leanring/assets/78081958/6f7bd6b2-615a-4e71-a722-bc90f390646f" width="100" height="100">
 <img width="538" alt="image" src="https://github.com/mj06879/TSP-using-GA-ACO-SARSA-Q_leanring/assets/78081958/d786f442-694d-474c-945e-a0008c55e65e" width="100" height="100">
 <img width="565" alt="image" src="https://github.com/mj06879/TSP-using-GA-ACO-SARSA-Q_leanring/assets/78081958/62f03470-6ec6-4f35-9d45-6efae97f5746" width="100" height="100">
