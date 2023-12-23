@@ -52,16 +52,16 @@ To have a better understanding and clarification, refer to the report link [here
 
 To ensure a fair comparison, all four algorithms were run on the same dataset consisting of 194 cities. Firstly, each algorithm was analysed individually using different parameter values to check which set of parameters gave the best results for the specific algorithm. Once this was determined, the algorithms were run together on a set number of epochs (4000) and each algorithm was run using the set of parameters from which got the best results.
 
-<img width="659" alt="image" src="https://github.com/mj06879/TSP-using-GA-ACO-SARSA-Q_leanring/assets/78081958/e21d961e-8f08-4f99-8e8d-0e2cd8dad5b3" width="200" height="100">
-<img width="531" alt="image" src="https://github.com/mj06879/TSP-using-GA-ACO-SARSA-Q_leanring/assets/78081958/6f7bd6b2-615a-4e71-a722-bc90f390646f" width="200" height="100">
-<img width="538" alt="image" src="https://github.com/mj06879/TSP-using-GA-ACO-SARSA-Q_leanring/assets/78081958/d786f442-694d-474c-945e-a0008c55e65e" width="200" height="100">
-<img width="565" alt="image" src="https://github.com/mj06879/TSP-using-GA-ACO-SARSA-Q_leanring/assets/78081958/62f03470-6ec6-4f35-9d45-6efae97f5746"  width="200" height="100">
-<img width="564" alt="image" src="https://github.com/mj06879/TSP-using-GA-ACO-SARSA-Q_leanring/assets/78081958/ae2c230d-9818-490c-836a-e6d5c678f219" width="200" height="100">
+<img width="659" alt="image" src="https://github.com/mj06879/TSP-using-GA-ACO-SARSA-Q_leanring/assets/78081958/e21d961e-8f08-4f99-8e8d-0e2cd8dad5b3">
+<img width="531" alt="image" src="https://github.com/mj06879/TSP-using-GA-ACO-SARSA-Q_leanring/assets/78081958/6f7bd6b2-615a-4e71-a722-bc90f390646f">
+<img width="538" alt="image" src="https://github.com/mj06879/TSP-using-GA-ACO-SARSA-Q_leanring/assets/78081958/d786f442-694d-474c-945e-a0008c55e65e">
+<img width="565" alt="image" src="https://github.com/mj06879/TSP-using-GA-ACO-SARSA-Q_leanring/assets/78081958/62f03470-6ec6-4f35-9d45-6efae97f5746">
+<img width="564" alt="image" src="https://github.com/mj06879/TSP-using-GA-ACO-SARSA-Q_leanring/assets/78081958/ae2c230d-9818-490c-836a-e6d5c678f219">
 
 Now for a complete and fair comparison, we took the best parameters for each algorithm
 
-<img width="602" alt="image" src="https://github.com/mj06879/TSP-using-GA-ACO-SARSA-Q_leanring/assets/78081958/630a954b-4acf-43f9-aa68-a4fe5be3b99d" width="200" height="100">
-<img width="573" alt="image" src="https://github.com/mj06879/TSP-using-GA-ACO-SARSA-Q_leanring/assets/78081958/6ceab265-0509-44a3-8cf4-a572aaf597ba" width="200" height="100">
+<img width="602" alt="image" src="https://github.com/mj06879/TSP-using-GA-ACO-SARSA-Q_leanring/assets/78081958/630a954b-4acf-43f9-aa68-a4fe5be3b99d">
+<img width="573" alt="image" src="https://github.com/mj06879/TSP-using-GA-ACO-SARSA-Q_leanring/assets/78081958/6ceab265-0509-44a3-8cf4-a572aaf597ba">
 
 According to our reflections, Ant Colony Optimisation has the best performance due to its natural pheromone-based approach that is well suited for optimisation problems specifically the TSP whereas Genetic Algorithm is a general optimisation approach which needs to be altered to solve the TSP. On the other hand, reinforcement learning techniques are generally sequential decision-making techniques that are not made for combinatorial optimisation problems such as the TSP. Moreover, ACO converges relatively quickly because ants communicate with each other and thus build upon each other’s tours, reinforcing the best tours whereas genetic algorithms can be slow to converge due to the random nature of their crossover and mutation operations.
 
